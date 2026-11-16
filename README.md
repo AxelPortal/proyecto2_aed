@@ -1,12 +1,12 @@
 # Proyecto 2 AED — Disjoin Set Union (DSU) con Rollback
 
-Video educativo animado (estilo 3Blue1Brown) que explica y demuestra visualmente el funcionamiento de la estructura de datos **Disjoin Set Union (DSU) con Rollback**.
+Video educativo animado que explica y demuestra visualmente el funcionamiento de la estructura de datos **Disjoin Set Union (DSU) con Rollback**.
 
 ## Descripción
 
 El **DSU con Rollback** es una variante de la estructura de Conjuntos Disjuntos (*Union-Find*) que permite deshacer operaciones de unión anteriores (`join`) en orden inverso (LIFO), restaurando el estado previo de las componentes conexas en tiempo $O(1)$ por reversión y $O(\log n)$ por búsqueda/unión al prescindir de la compresión de caminos y emplear **Unión por Tamaño (*Union by Size*)** junto con una pila de historial.
 
-Este proyecto implementa la estructura desde cero en Python puro y genera una animación profesional (de 4 a 5 minutos) con [Manim Community Edition](https://www.manim.community/) que demuestra la lógica paso a paso. Toda la animación está guiada por la estructura de datos real mediante generadores (`yield`), sin *hardcoding* de los pasos.
+Este proyecto implementa la estructura desde cero en Python puro y genera una animación (de 4 a 5 minutos) con [Manim Community Edition](https://www.manim.community/) que demuestra la lógica paso a paso. Toda la animación está guiada por la estructura de datos real mediante generadores (`yield`).
 
 La animación está dividida en las siguientes secciones:
 
